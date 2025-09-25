@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ body span{
+    /* background-color: rgb(244, 239, 239); */
+    color: red;
+    /* transition: all ease; */
+    animation: animate 2s linear;
+    
+}
+/* Extra parts addtional */
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%,-50%);
+        color: green;
+    }
+    20%{
+        color: black;
+        
+    }
+     30%{
+        color: rgb(241, 14, 226);
+        
+    }
+     40%{
+        color: rgb(230, 130, 15);
+        
+    }
+     50%{
+        color: rgb(181, 235, 19);
+        
+    }
+     60%{
+        color: rgb(13, 245, 152);
+        
+    }
+     80%{
+        color: rgb(252, 250, 250);
+        
+    }
+}
