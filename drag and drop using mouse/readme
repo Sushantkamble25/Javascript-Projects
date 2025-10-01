@@ -1,0 +1,59 @@
+Drag and Drop Using Mouse (Custom Implementation)
+
+This project demonstrates a custom drag-and-drop system built with pure JavaScript, HTML, and CSS, without relying on the default HTML5 drag-and-drop API.
+
+🎯 Main Focus
+
+Learn how to implement manual drag and drop using mouse events (mousedown, mousemove, mouseup).
+
+Understand how absolute positioning (top, left) allows free movement of elements inside a container.
+
+Explore how to track mouse position differences (deltaX, deltaY) to update element positions.
+
+🛠️ Concepts Covered
+
+Event Handling
+
+Listening to mousedown to start dragging.
+
+Using mousemove to update the position of the dragged element.
+
+Ending drag on mouseup.
+
+Positioning with CSS
+
+Elements (.box) use position: absolute, allowing free movement.
+
+Initial positions are set via CSS (top, left).
+
+Mouse Coordinate Math
+
+Store initial element coordinates (offsetLeft, offsetTop).
+
+Calculate movement by subtracting original mouse position from current mouse position.
+
+Apply the result as new style.left and style.top.
+
+Custom Drag vs HTML5 Drag
+
+Unlike the built-in HTML5 drag API (draggable="true"), this project manually controls element movement.
+
+This gives more flexibility (works like a whiteboard or puzzle game).
+
+📂 Project Structure
+
+index.html → structure (boxes inside a container).
+
+style.css → layout, grid setup, and visual styles.
+
+script.js → JavaScript logic for custom dragging.
+
+🚀 How It Works
+
+User presses the mouse on a box (mousedown).
+
+Script stores the box’s position + the mouse’s starting point.
+
+While dragging (mousemove), the box follows the mouse, updating top and left.
+
+On release (mouseup), dragging stops.
