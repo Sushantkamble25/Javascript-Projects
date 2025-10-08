@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 100vh;
+    margin: 0;
+    
+}
+
+div{
+    height: 100px;
+    width: 500px;
+    border: 1px solid
+     black;
+     margin: auto;
+}
+
+button{
+   height: 80px;
+   width: 80px;
+   margin-left: 46%;
+}
